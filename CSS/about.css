@@ -1,0 +1,242 @@
+* {
+ margin: 0px;
+ padding: 0px;
+ box-sizing: border-box;
+}
+
+body {
+ background-color: white;
+}
+
+.mainbox {
+ width: 1000px;
+ height: 1290px; /* will be removed once page is complete */
+ background-color: black;
+ margin: 10px;
+ text-align: left;
+}
+
+nav {
+ width: 1000px;
+ height: 100px;
+ background-color: black;
+}
+
+.navleft {
+ width: 225px;
+ height: 100px;
+ background-color: black;
+ float: left;
+ padding-left: 30px;
+ padding-top: 35px;
+ color: black;
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: large;
+ background: linear-gradient(to right, white, red);
+ -webkit-text-fill-color: transparent;
+ -webkit-background-clip: text;
+}
+
+.navcenter {
+ width: 550px;
+ height: 100px;
+ background-color: black;
+ float: left;
+ text-align: center;
+ font-size: 18px;
+ padding-top: 40px;
+ color: white;
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+.navright {
+ width: 225px;
+ height: 100px;
+ background-color: black;
+ float: right;
+ padding: 20px;
+ color: white;
+}
+
+.callbox {
+ width: 190px;
+ height: 50px;
+ background-color: darkslateblue;
+ text-align: center;
+ color: white;
+ padding-top: 10px;
+ margin-top: 5px;
+ font-size: 25px;
+ border-radius: 10px;
+ -webkit-text-stroke-width: 0.3px;
+ -webkit-text-stroke-color: black;
+}
+
+nav a:link {
+ color: white;
+ text-decoration: none;
+ font-weight: 700;
+}
+
+nav a:visited {
+ color: white;
+ text-decoration: none;
+}
+
+nav a:hover {
+ color: red;
+ opacity: 0.7;
+}
+
+header {
+ width: 900px;
+ height: 300px;
+ background: linear-gradient(to right, grey, black);
+ margin-left: 50px;
+ margin-bottom: 20px;
+}
+
+.headertext {
+ padding: 80px;
+ text-align: center;
+ color: white;
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 85pt;
+ font-weight: 700;
+ -webkit-text-stroke-width: 2px;
+ -webkit-text-stroke-color: black;
+}
+
+main {
+ width: 1000px;
+ height: 550px;
+ background-color: white;
+}
+
+.mainbox1 {
+ width: 620px;
+ height: 500px;
+ background-color: green;
+ margin-left: 20px;
+ margin-top: 20px;
+ float: left;
+}
+
+.mainbox2 {
+ width: 310px;
+ height: 250px;
+ background-color: white;
+ float: left;
+}
+
+.mainbox3 {
+ width: 310px;
+ height: 250px;
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 14pt;
+ color: black;
+ padding: 15px;
+ background-color: white;
+ float: right;
+}
+
+.mainbox3 h5 {
+ background: linear-gradient(to right, red, white);
+ color: white;
+ text-align: center;
+ -webkit-text-stroke-width: 0.5px;
+ -webkit-text-stroke-color: black;
+}
+
+.mainbox4 {
+ width: 310px;
+ height: 250px;
+ background-color: white;
+ float: right;
+}
+
+.mainbox5 {
+ width: 310px;
+ height: 250px;
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 14pt;
+ color: black;
+ padding: 15px;
+ background-color: white;
+ float: right;
+}
+
+.mainbox5 h5 {
+ background: linear-gradient(to right, red, white);
+ color: white;
+ text-align: center;
+ -webkit-text-stroke-width: 0.5px;
+ -webkit-text-stroke-color: black;
+}
+
+.mainpicturebox {
+ width: 350px;
+ height: 500px;
+ background-color: white;
+ float: right;
+ margin-right: 10px;
+ margin-top: 20px;
+ -webkit-text-stroke-width: 0.7px;
+ -webkit-text-stroke-color: black;
+}
+
+main h1 {
+ text-align: center;
+}
+main p {
+ text-align: center;
+ margin-top: 50px;
+}
+
+.maintextbox {
+ width: 650px;
+ height: 220px;
+ border: 1px solid grey;
+ margin-top: 30px;
+ background-color: white;
+ border-radius: 10px;
+ box-shadow: 5px 5px rgb(210, 48, 48);
+}
+
+.footerbox {
+ width: 999px;
+ height: 50px;
+ background-color: grey;
+ text-align: right;
+ padding-right: 2px;
+ border-bottom: 4px solid black;
+ border-left: 2px solid black;
+ border-right: 4px solid black;
+}
+
+.classschtable {
+ font-family: sans-serif;
+ background-color: white;
+ border-collapse: collapse;
+ border: 2px solid black;
+}
+
+.tabletop {
+ font-weight: 700;
+ color: white;
+ background: linear-gradient(to right, grey, black);
+ text-align: center;
+}
+
+.classschtable th {
+ color: white;
+ background: linear-gradient(to right, grey, black);
+ text-align: center;
+}
+
+.footertext {
+ float: left;
+ margin-top: 17px;
+ margin-right: 5px;
+ margin-left: 10px;
+}
